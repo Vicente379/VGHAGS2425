@@ -29,7 +29,7 @@ namespace Telegrama
             textoTelegrama = txtTelegrama.Text;
 
             
-            if (chkUrgente.Checked)
+            if (cbUrgente.Checked)
             {
                 tipoTelegrama = 'u';
             }
@@ -104,11 +104,14 @@ namespace Telegrama
 
         }
 
-        private void Suma(int a,int b)
+        private void chkUrgente_CheckedChanged_1(object sender, EventArgs e)
         {
 
         }
 
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
 
+        }
     }
 }
