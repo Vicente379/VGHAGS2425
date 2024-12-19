@@ -48,7 +48,7 @@ namespace Telegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
@@ -66,7 +66,7 @@ namespace Telegrama
                 else
                 {
                     
-                    coste = 5;
+                    coste = 6;
                 }
             }
             else
